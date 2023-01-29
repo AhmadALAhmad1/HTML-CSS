@@ -127,3 +127,19 @@ nav ul li a:hover {
     clip-path: circle(50% at bottom);
   }
 }
+
+@media (min-width: 410px) and (max-width: 590px) {
+  .content .text {
+    width: 80%;
+  }
+  .content .image img {
+    width: 200px;
+    height: 100%;
+  }
+  .container {
+    height: 100%;
+  }
+  body::after {
+    clip-path: circle(30% at bottom);
+  }
+}
